@@ -1,0 +1,108 @@
+const games = [
+  {
+    id: 1,
+    title: "Cyberpunk 2077",
+    image: "/images/games/cyberpunk2077.jpg",
+    genre: "RPG",
+    platform: "PC",
+    hoursPlayed: "145 hrs",
+    completed: true,
+    rating: 9.5,
+    releaseYear: 2020,
+    description:
+      "Explore the futuristic world of Night City while completing story missions, side quests, and character builds.",
+  },
+  {
+    id: 2,
+    title: "Red Dead Redemption 2",
+    image: "/images/games/rdr2.jpg",
+    genre: "Action",
+    platform: "PC",
+    hoursPlayed: "220 hrs",
+    completed: true,
+    rating: 10,
+    releaseYear: 2018,
+    description:
+      "An open-world western adventure following Arthur Morgan and the Van der Linde gang.",
+  },
+  {
+    id: 3,
+    title: "Elden Ring",
+    image: "/images/games/eldenring.jpg",
+    genre: "Soulslike",
+    platform: "PC",
+    hoursPlayed: "180 hrs",
+    completed: true,
+    rating: 9.8,
+    releaseYear: 2022,
+    description:
+      "Journey across the Lands Between to become the Elden Lord in FromSoftware's critically acclaimed RPG.",
+  },
+  {
+    id: 4,
+    title: "Valorant",
+    image: "/images/games/valorant.jpg",
+    genre: "FPS",
+    platform: "PC",
+    hoursPlayed: "950 hrs",
+    completed: false,
+    rating: 9.2,
+    releaseYear: 2020,
+    description:
+      "Competitive 5v5 tactical shooter with unique agents and abilities.",
+  },
+  {
+    id: 5,
+    title: "Minecraft",
+    image: "/images/games/minecraft.jpg",
+    genre: "Sandbox",
+    platform: "PC",
+    hoursPlayed: "1200 hrs",
+    completed: false,
+    rating: 10,
+    releaseYear: 2011,
+    description:
+      "Build, explore, and survive in an endless block-based sandbox world.",
+  },
+  {
+    id: 6,
+    title: "Grand Theft Auto V",
+    image: "/images/games/gtav.jpg",
+    genre: "Open World",
+    platform: "PC",
+    hoursPlayed: "430 hrs",
+    completed: true,
+    rating: 9.7,
+    releaseYear: 2015,
+    description:
+      "Experience Los Santos through three protagonists in one of the best-selling games ever.",
+  },
+  {
+    id: 7,
+    title: "Forza Horizon 5",
+    image: "/images/games/forza5.jpg",
+    genre: "Racing",
+    platform: "PC",
+    hoursPlayed: "165 hrs",
+    completed: false,
+    rating: 9.3,
+    releaseYear: 2021,
+    description:
+      "Explore vibrant Mexico with hundreds of cars in an open-world racing festival.",
+  },
+  {
+    id: 8,
+    title: "God of War",
+    image: "/images/games/godofwar.jpg",
+    genre: "Adventure",
+    platform: "PC",
+    hoursPlayed: "52 hrs",
+    completed: true,
+    rating: 9.8,
+    releaseYear: 2022,
+    description:
+      "Follow Kratos and Atreus on an unforgettable Norse mythology adventure.",
+  },
+];
+
+export default games;
